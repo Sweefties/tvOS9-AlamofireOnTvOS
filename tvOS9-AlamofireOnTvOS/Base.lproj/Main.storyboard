@@ -1,25 +1,143 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="6185.10" systemVersion="14A360a" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="NO" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9052" systemVersion="15A284" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="5Bk-dk-hGy">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9040"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Search App on iTunes API-->
+        <scene sceneID="Yol-Si-Sc7">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                <tableViewController storyboardIdentifier="SearchResultsViewController" id="eeW-Ex-Nlh" customClass="MainTableViewController" customModule="tvOS9_AlamofireOnTvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="40" sectionFooterHeight="40" id="iXs-1n-eLC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <animations/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="defaultCell" textLabel="zkB-3f-Y2V" detailTextLabel="O1t-Mf-ZyU" imageView="8VA-D5-wky" style="IBUITableViewCellStyleValue1" id="hl2-Kq-whC" customClass="AppTableViewCell" customModule="tvOS9_AlamofireOnTvOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="199" width="1880" height="66"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hl2-Kq-whC" id="q63-go-ce8">
+                                    <rect key="frame" x="0.0" y="0.0" width="1904" height="66"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zkB-3f-Y2V">
+                                            <rect key="frame" x="108" y="10" width="72" height="46"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O1t-Mf-ZyU">
+                                            <rect key="frame" x="1788" y="10" width="96" height="46"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="Placeholder" id="8VA-D5-wky">
+                                            <rect key="frame" x="0.0" y="0.0" width="88" height="66"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </imageView>
+                                    </subviews>
+                                    <animations/>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eeW-Ex-Nlh" id="h8h-Uz-JDb"/>
+                            <outlet property="delegate" destination="eeW-Ex-Nlh" id="vgK-4N-jk0"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Search App on iTunes API" id="4Kg-DB-gdr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSh-ja-1Ha" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="6885" y="-637"/>
+        </scene>
+        <!--Alamofire-tvOS Example-->
+        <scene sceneID="U8a-tO-l6y">
+            <objects>
+                <viewController id="CfO-Vt-gnc" customClass="SearchViewController" customModule="tvOS9_AlamofireOnTvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x11-9A-2k8"/>
+                        <viewControllerLayoutGuide type="bottom" id="c7R-gq-wf6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4aP-XX-dJB">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLw-V3-mDA">
+                                <rect key="frame" x="799" y="497" width="323" height="86"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="323" id="ctT-G0-dmD"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Search App!"/>
+                                <connections>
+                                    <action selector="showSearchController:" destination="CfO-Vt-gnc" eventType="primaryActionTriggered" id="atd-LD-Cmf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <constraints>
+                            <constraint firstItem="qLw-V3-mDA" firstAttribute="centerY" secondItem="4aP-XX-dJB" secondAttribute="centerY" id="8b8-df-Yjp"/>
+                            <constraint firstItem="qLw-V3-mDA" firstAttribute="centerX" secondItem="4aP-XX-dJB" secondAttribute="centerX" id="VRe-6P-H4Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alamofire-tvOS Example" id="TLh-Fk-sAh"/>
+                    <connections>
+                        <outlet property="searchButton" destination="qLw-V3-mDA" id="XLY-f4-9aA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VfY-qq-0Z9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5321" y="986"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RVn-0i-F2I">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5Bk-dk-hGy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7We-zm-BAs">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CfO-Vt-gnc" kind="relationship" relationship="rootViewController" id="QeU-AF-UIh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ql-pO-Yl4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3189" y="986"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="o1r-ir-6pa">
+            <objects>
+                <navigationController storyboardIdentifier="SearchResultsNavigation" automaticallyAdjustsScrollViewInsets="NO" id="FBR-e3-fs3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U3k-k0-SJh">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="145"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eeW-Ex-Nlh" kind="relationship" relationship="rootViewController" id="QUC-f5-qQI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1q3-5S-ICC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4753" y="-637"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Placeholder" width="400" height="300"/>
+    </resources>
 </document>
