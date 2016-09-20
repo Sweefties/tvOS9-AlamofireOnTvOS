@@ -11,51 +11,27 @@
 		7EF367921BC370420046D3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF367901BC370420046D3CB /* Main.storyboard */; };
 		7EF367941BC370420046D3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF367931BC370420046D3CB /* Assets.xcassets */; };
 		7EF367A01BC370D00046D3CB /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF3679F1BC370D00046D3CB /* MainTableViewController.swift */; };
-		7EF367B11BC3725F0046D3CB /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A31BC3725F0046D3CB /* Alamofire.swift */; };
-		7EF367B21BC3725F0046D3CB /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A41BC3725F0046D3CB /* Download.swift */; };
-		7EF367B31BC3725F0046D3CB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A51BC3725F0046D3CB /* Error.swift */; };
-		7EF367B41BC3725F0046D3CB /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A61BC3725F0046D3CB /* Manager.swift */; };
-		7EF367B51BC3725F0046D3CB /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A71BC3725F0046D3CB /* MultipartFormData.swift */; };
-		7EF367B61BC3725F0046D3CB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A81BC3725F0046D3CB /* ParameterEncoding.swift */; };
-		7EF367B71BC3725F0046D3CB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367A91BC3725F0046D3CB /* Request.swift */; };
-		7EF367B81BC3725F0046D3CB /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AA1BC3725F0046D3CB /* Response.swift */; };
-		7EF367B91BC3725F0046D3CB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AB1BC3725F0046D3CB /* ResponseSerialization.swift */; };
-		7EF367BA1BC3725F0046D3CB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AC1BC3725F0046D3CB /* Result.swift */; };
-		7EF367BB1BC3725F0046D3CB /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AD1BC3725F0046D3CB /* ServerTrustPolicy.swift */; };
-		7EF367BC1BC3725F0046D3CB /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AE1BC3725F0046D3CB /* Stream.swift */; };
-		7EF367BD1BC3725F0046D3CB /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367AF1BC3725F0046D3CB /* Upload.swift */; };
-		7EF367BE1BC3725F0046D3CB /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367B01BC3725F0046D3CB /* Validation.swift */; };
 		7EF367C01BC385140046D3CB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367BF1BC385140046D3CB /* SearchViewController.swift */; };
 		7EF367C31BC48C370046D3CB /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367C21BC48C370046D3CB /* AppTableViewCell.swift */; };
 		7EF367C61BC48E640046D3CB /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367C51BC48E640046D3CB /* AppViewModel.swift */; };
 		7EF367C91BC4905B0046D3CB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF367C81BC4905B0046D3CB /* App.swift */; };
+		F81A94432FC679AF32732AB6 /* Pods_tvOS9_AlamofireOnTvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E85FAA91B0CA51B387A1739 /* Pods_tvOS9_AlamofireOnTvOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E85FAA91B0CA51B387A1739 /* Pods_tvOS9_AlamofireOnTvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvOS9_AlamofireOnTvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AADD6BCECA7D46B0EAE35D0 /* Pods-tvOS9-AlamofireOnTvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS9-AlamofireOnTvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS9-AlamofireOnTvOS/Pods-tvOS9-AlamofireOnTvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7EF367891BC370420046D3CB /* tvOS9-AlamofireOnTvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS9-AlamofireOnTvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF3678C1BC370420046D3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF367911BC370420046D3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EF367931BC370420046D3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF367951BC370420046D3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF3679F1BC370D00046D3CB /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = App/Controllers/MainTableViewController.swift; sourceTree = "<group>"; };
-		7EF367A31BC3725F0046D3CB /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = "App/Libraries/Alamofire-tvOS/Alamofire.swift"; sourceTree = "<group>"; };
-		7EF367A41BC3725F0046D3CB /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Download.swift; path = "App/Libraries/Alamofire-tvOS/Download.swift"; sourceTree = "<group>"; };
-		7EF367A51BC3725F0046D3CB /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = "App/Libraries/Alamofire-tvOS/Error.swift"; sourceTree = "<group>"; };
-		7EF367A61BC3725F0046D3CB /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = "App/Libraries/Alamofire-tvOS/Manager.swift"; sourceTree = "<group>"; };
-		7EF367A71BC3725F0046D3CB /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = "App/Libraries/Alamofire-tvOS/MultipartFormData.swift"; sourceTree = "<group>"; };
-		7EF367A81BC3725F0046D3CB /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = "App/Libraries/Alamofire-tvOS/ParameterEncoding.swift"; sourceTree = "<group>"; };
-		7EF367A91BC3725F0046D3CB /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = "App/Libraries/Alamofire-tvOS/Request.swift"; sourceTree = "<group>"; };
-		7EF367AA1BC3725F0046D3CB /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Response.swift; path = "App/Libraries/Alamofire-tvOS/Response.swift"; sourceTree = "<group>"; };
-		7EF367AB1BC3725F0046D3CB /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = "App/Libraries/Alamofire-tvOS/ResponseSerialization.swift"; sourceTree = "<group>"; };
-		7EF367AC1BC3725F0046D3CB /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = "App/Libraries/Alamofire-tvOS/Result.swift"; sourceTree = "<group>"; };
-		7EF367AD1BC3725F0046D3CB /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = "App/Libraries/Alamofire-tvOS/ServerTrustPolicy.swift"; sourceTree = "<group>"; };
-		7EF367AE1BC3725F0046D3CB /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = "App/Libraries/Alamofire-tvOS/Stream.swift"; sourceTree = "<group>"; };
-		7EF367AF1BC3725F0046D3CB /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = "App/Libraries/Alamofire-tvOS/Upload.swift"; sourceTree = "<group>"; };
-		7EF367B01BC3725F0046D3CB /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = "App/Libraries/Alamofire-tvOS/Validation.swift"; sourceTree = "<group>"; };
 		7EF367BF1BC385140046D3CB /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = App/Controllers/SearchViewController.swift; sourceTree = "<group>"; };
 		7EF367C21BC48C370046D3CB /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppTableViewCell.swift; path = App/Views/AppTableViewCell.swift; sourceTree = "<group>"; };
 		7EF367C51BC48E640046D3CB /* AppViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppViewModel.swift; path = App/viewModels/AppViewModel.swift; sourceTree = "<group>"; };
 		7EF367C81BC4905B0046D3CB /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = App.swift; path = App/Models/App.swift; sourceTree = "<group>"; };
+		BC9E88B1A79C6047DFA856DD /* Pods-tvOS9-AlamofireOnTvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tvOS9-AlamofireOnTvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tvOS9-AlamofireOnTvOS/Pods-tvOS9-AlamofireOnTvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81A94432FC679AF32732AB6 /* Pods_tvOS9_AlamofireOnTvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +51,8 @@
 			children = (
 				7EF3678B1BC370420046D3CB /* tvOS9-AlamofireOnTvOS */,
 				7EF3678A1BC370420046D3CB /* Products */,
+				89D07BC6E374A0178D8DE429 /* Pods */,
+				88045B0433C5C761AF4747EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +75,6 @@
 		7EF3679B1BC370570046D3CB /* App */ = {
 			isa = PBXGroup;
 			children = (
-				7EF367A11BC371D60046D3CB /* Libraries */,
 				7EF3679C1BC3705F0046D3CB /* Root */,
 				7EF367C71BC490350046D3CB /* Models */,
 				7EF367C11BC48C050046D3CB /* Views */,
@@ -134,35 +112,6 @@
 			name = Ressources;
 			sourceTree = "<group>";
 		};
-		7EF367A11BC371D60046D3CB /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				7EF367A21BC371E00046D3CB /* Alamofire-tvOS */,
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		7EF367A21BC371E00046D3CB /* Alamofire-tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				7EF367A31BC3725F0046D3CB /* Alamofire.swift */,
-				7EF367A41BC3725F0046D3CB /* Download.swift */,
-				7EF367A51BC3725F0046D3CB /* Error.swift */,
-				7EF367A61BC3725F0046D3CB /* Manager.swift */,
-				7EF367A71BC3725F0046D3CB /* MultipartFormData.swift */,
-				7EF367A81BC3725F0046D3CB /* ParameterEncoding.swift */,
-				7EF367A91BC3725F0046D3CB /* Request.swift */,
-				7EF367AA1BC3725F0046D3CB /* Response.swift */,
-				7EF367AB1BC3725F0046D3CB /* ResponseSerialization.swift */,
-				7EF367AC1BC3725F0046D3CB /* Result.swift */,
-				7EF367AD1BC3725F0046D3CB /* ServerTrustPolicy.swift */,
-				7EF367AE1BC3725F0046D3CB /* Stream.swift */,
-				7EF367AF1BC3725F0046D3CB /* Upload.swift */,
-				7EF367B01BC3725F0046D3CB /* Validation.swift */,
-			);
-			name = "Alamofire-tvOS";
-			sourceTree = "<group>";
-		};
 		7EF367C11BC48C050046D3CB /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +136,23 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		88045B0433C5C761AF4747EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E85FAA91B0CA51B387A1739 /* Pods_tvOS9_AlamofireOnTvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D07BC6E374A0178D8DE429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9E88B1A79C6047DFA856DD /* Pods-tvOS9-AlamofireOnTvOS.debug.xcconfig */,
+				5AADD6BCECA7D46B0EAE35D0 /* Pods-tvOS9-AlamofireOnTvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EF367981BC370420046D3CB /* Build configuration list for PBXNativeTarget "tvOS9-AlamofireOnTvOS" */;
 			buildPhases = (
+				BD97E239F8BBF6698DBBAEB0 /* [CP] Check Pods Manifest.lock */,
 				7EF367851BC370420046D3CB /* Sources */,
 				7EF367861BC370420046D3CB /* Frameworks */,
 				7EF367871BC370420046D3CB /* Resources */,
+				E27D681EE2E67B3C39980F60 /* [CP] Embed Pods Frameworks */,
+				19BE3161B597B9F57A319B1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,11 +182,12 @@
 		7EF367811BC370420046D3CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Sweefties;
 				TargetAttributes = {
 					7EF367881BC370420046D3CB = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -251,31 +221,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19BE3161B597B9F57A319B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvOS9-AlamofireOnTvOS/Pods-tvOS9-AlamofireOnTvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD97E239F8BBF6698DBBAEB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E27D681EE2E67B3C39980F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tvOS9-AlamofireOnTvOS/Pods-tvOS9-AlamofireOnTvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EF367851BC370420046D3CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF367B11BC3725F0046D3CB /* Alamofire.swift in Sources */,
-				7EF367B41BC3725F0046D3CB /* Manager.swift in Sources */,
 				7EF367C61BC48E640046D3CB /* AppViewModel.swift in Sources */,
-				7EF367B61BC3725F0046D3CB /* ParameterEncoding.swift in Sources */,
 				7EF367C01BC385140046D3CB /* SearchViewController.swift in Sources */,
-				7EF367B51BC3725F0046D3CB /* MultipartFormData.swift in Sources */,
 				7EF367C31BC48C370046D3CB /* AppTableViewCell.swift in Sources */,
-				7EF367B81BC3725F0046D3CB /* Response.swift in Sources */,
-				7EF367BB1BC3725F0046D3CB /* ServerTrustPolicy.swift in Sources */,
-				7EF367BE1BC3725F0046D3CB /* Validation.swift in Sources */,
-				7EF367BD1BC3725F0046D3CB /* Upload.swift in Sources */,
-				7EF367B21BC3725F0046D3CB /* Download.swift in Sources */,
-				7EF367BA1BC3725F0046D3CB /* Result.swift in Sources */,
 				7EF367C91BC4905B0046D3CB /* App.swift in Sources */,
 				7EF367A01BC370D00046D3CB /* MainTableViewController.swift in Sources */,
-				7EF367B31BC3725F0046D3CB /* Error.swift in Sources */,
-				7EF367B91BC3725F0046D3CB /* ResponseSerialization.swift in Sources */,
-				7EF367B71BC3725F0046D3CB /* Request.swift in Sources */,
 				7EF3678D1BC370420046D3CB /* AppDelegate.swift in Sources */,
-				7EF367BC1BC3725F0046D3CB /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +310,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -350,8 +356,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -368,6 +376,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -376,25 +385,31 @@
 		};
 		7EF367991BC370420046D3CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9E88B1A79C6047DFA856DD /* Pods-tvOS9-AlamofireOnTvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "tvOS9-AlamofireOnTvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.tvOS9-AlamofireOnTvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7EF3679A1BC370420046D3CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AADD6BCECA7D46B0EAE35D0 /* Pods-tvOS9-AlamofireOnTvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "tvOS9-AlamofireOnTvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sweefties.tvOS9-AlamofireOnTvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -417,6 +432,7 @@
 				7EF3679A1BC370420046D3CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,7 +18,7 @@ class SearchViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchButton.setTitle("Search App!", forState: UIControlState.Normal)
+        searchButton.setTitle("Search App!", for: UIControlState())
     }
 
     
@@ -34,13 +34,13 @@ typealias SearchActions = SearchViewController
 extension SearchViewController : UISearchControllerDelegate {
     
     /// Show Search Controller
-    @IBAction func showSearchController(sender: AnyObject) {
+    @IBAction func showSearchController(_ sender: AnyObject) {
         /*
         Instantiate an instance of a `SearchResultsViewController` from the
         storyboard. This will be used by the `UISearchController` to display
         search results.
         */
-        guard let resultsController = storyboard?.instantiateViewControllerWithIdentifier(MainTableViewController.storyboardIdentifier) as? MainTableViewController else { fatalError("Unable to instantiate a SearchResultsViewController.") }
+        guard let resultsController = storyboard?.instantiateViewController(withIdentifier: MainTableViewController.storyboardIdentifier) as? MainTableViewController else { fatalError("Unable to instantiate a SearchResultsViewController.") }
         
         // Create and configure a `UISearchController`.
         let searchController = UISearchController(searchResultsController: resultsController)
@@ -50,11 +50,11 @@ extension SearchViewController : UISearchControllerDelegate {
         let searchPlaceholderText = NSLocalizedString("Enter keyword (e.g. Apple)", comment: "")
         searchController.searchBar.placeholder = searchPlaceholderText
         
-        searchController.searchBar.keyboardType = UIKeyboardType.Default
-        searchController.searchBar.returnKeyType = UIReturnKeyType.Search
-        searchController.searchBar.searchBarStyle = UISearchBarStyle.Prominent
+        searchController.searchBar.keyboardType = UIKeyboardType.default
+        searchController.searchBar.returnKeyType = UIReturnKeyType.search
+        searchController.searchBar.searchBarStyle = UISearchBarStyle.prominent
         searchController.delegate = self
         // Present the search controller from the self view.
-        self.presentViewController(searchController, animated: true, completion: nil)
+        self.present(searchController, animated: true, completion: nil)
     }
 }

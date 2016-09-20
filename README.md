@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/build-pass-brightgreen.svg?style=flat-square)
 ![](https://img.shields.io/badge/platform-tvOS9+-ff69b4.svg?style=flat-square)
-![](https://img.shields.io/badge/Require-XCode7.1-lightgrey.svg?style=flat-square)
+![](https://img.shields.io/badge/Require-XCode%208-lightgrey.svg?style=flat-square)
 
 
 # tvOS 9 - New OS - Alamofire Example
@@ -17,17 +17,18 @@ From : [iTunes Search API](https://www.apple.com/itunes/affiliates/resources/doc
 
 ## Requirements
 
-- >= XCode 7.1 beta~.
-- >= Swift 2.
+- >= XCode 8.0.
+- >= Swift 3.
 - >= tvOS 9.0
 
-Tested on tvOS 9.0 Simulator.
+Tested on tvOS 9.0 Simulator, Apple Tv Developer Kit.
 
 ## Alamofire - tvOS
 
-- Get library from Alamofire tvOS Branch here [Alamofire-tvOS](https://github.com/Alamofire/Alamofire/tree/tvOS)
-- Note : at the project writted (2015-10-06), Master branch doesn't work with tvOS.
-- Installation used in this sample : Manually Install (installation with Cocoapods or Carthage untested here..)
+- You can get the lastlibrary version from Alamofire `master` Branch here [Alamofire](https://github.com/Alamofire/Alamofire/)
+- Note : at the project updated (2016-09-20), Master branch work with iOS, OsX, tvOS, WatchOS.
+- Installation used in this sample : CocoaPods 1.1.0
+- with `pod 'Alamofire', '~> 4.0'`
 - Check the documentation and use Alamofire!
 
 

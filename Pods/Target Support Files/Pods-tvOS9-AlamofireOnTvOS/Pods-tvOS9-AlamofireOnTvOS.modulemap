@@ -1,0 +1,6 @@
+framework module Pods_tvOS9_AlamofireOnTvOS {
+  umbrella header "Pods-tvOS9-AlamofireOnTvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

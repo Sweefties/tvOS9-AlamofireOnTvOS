@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7EF367881BC370420046D3CB"
-               BuildableName = "tvOS9-AlamofireOnTvOS.app"
-               BlueprintName = "tvOS9-AlamofireOnTvOS"
-               ReferencedContainer = "container:tvOS9-AlamofireOnTvOS.xcodeproj">
+               BlueprintIdentifier = "9833B24FF40AFCC3827E2800620C849C"
+               BuildableName = "Pods_tvOS9_AlamofireOnTvOS.framework"
+               BlueprintName = "Pods-tvOS9-AlamofireOnTvOS"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EF367881BC370420046D3CB"
-            BuildableName = "tvOS9-AlamofireOnTvOS.app"
-            BlueprintName = "tvOS9-AlamofireOnTvOS"
-            ReferencedContainer = "container:tvOS9-AlamofireOnTvOS.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EF367881BC370420046D3CB"
-            BuildableName = "tvOS9-AlamofireOnTvOS.app"
-            BlueprintName = "tvOS9-AlamofireOnTvOS"
-            ReferencedContainer = "container:tvOS9-AlamofireOnTvOS.xcodeproj">
+            BlueprintIdentifier = "9833B24FF40AFCC3827E2800620C849C"
+            BuildableName = "Pods_tvOS9_AlamofireOnTvOS.framework"
+            BlueprintName = "Pods-tvOS9-AlamofireOnTvOS"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7EF367881BC370420046D3CB"
-            BuildableName = "tvOS9-AlamofireOnTvOS.app"
-            BlueprintName = "tvOS9-AlamofireOnTvOS"
-            ReferencedContainer = "container:tvOS9-AlamofireOnTvOS.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

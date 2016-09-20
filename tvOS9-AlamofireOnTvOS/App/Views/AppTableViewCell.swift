@@ -20,23 +20,23 @@ protocol AppTextCellDelegate {
 extension AppTextCellDelegate {
         
     var textColor: UIColor {
-        return .blackColor()
+        return UIColor.black
     }
     
     var font: UIFont {
-        return .systemFontOfSize(38)
+        return .systemFont(ofSize: 38)
     }
 }
 
 
 class AppTableViewCell: UITableViewCell {
     
-    private var delegate: AppTextCellDelegate?
-    private var dataObject: AppModel?
+    fileprivate var delegate: AppTextCellDelegate?
+    fileprivate var dataObject: AppModel?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        self.detailTextLabel?.textColor = .lightGrayColor()
+        self.detailTextLabel?.textColor = UIColor.lightGray
         self.imageView?.image = UIImage(named: "Placeholder")
     }
     /**
@@ -61,6 +61,6 @@ class AppTableViewCell: UITableViewCell {
         
         // set placeholder image first.
         self.imageView?.image = UIImage(named: "Placeholder")
-        self.imageView?.downloadImageFrom(url: appArtworkUrl, contentMode: UIViewContentMode.ScaleAspectFit)
+        self.imageView?.downloadImageFrom(url: appArtworkUrl, contentMode: UIViewContentMode.scaleAspectFit)
     }
 }

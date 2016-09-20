@@ -15,6 +15,6 @@ struct AppViewModel: AppTextCellDataSource {
 extension AppViewModel: AppTextCellDelegate {
     
     var textColor: UIColor {
-        return .blackColor()
+        return UIColor.black
     }
 }
