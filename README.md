@@ -23,6 +23,11 @@ From : [iTunes Search API](https://www.apple.com/itunes/affiliates/resources/doc
 
 Tested on tvOS 9.0 Simulator, Apple Tv Developer Kit.
 
+## Important
+
+- this is the XCode 8 / Swift 3 updated project.
+- to launch the project, open the `tvOS9-AlamofireOnTvOS.xcworkspace`
+
 ## Alamofire - tvOS
 
 - You can get the lastlibrary version from Alamofire `master` Branch here [Alamofire](https://github.com/Alamofire/Alamofire/)
@@ -60,4 +65,4 @@ Alamofire.request(.GET, "http://httpbin.org/get", parameters: ["foo": "bar"])
 ## Usage
 
 To run the example project, download or clone the repo.
-
+- open the `tvOS9-AlamofireOnTvOS.xcworkspace`
