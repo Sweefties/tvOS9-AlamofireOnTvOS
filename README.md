@@ -23,6 +23,10 @@ From : [iTunes Search API](https://www.apple.com/itunes/affiliates/resources/doc
 
 Tested on tvOS 9.0 Simulator.
 
+## Important
+
+Get the `master` branch for XCode 8 / Swift 3 updated project.
+
 ## Alamofire - tvOS
 
 - Get library from Alamofire tvOS Branch here [Alamofire-tvOS](https://github.com/Alamofire/Alamofire/tree/tvOS)
